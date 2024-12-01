@@ -233,7 +233,7 @@ body.dark-mode .navbar-links a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #e04a2f;
+  background-color: var(--color-hover);
   transform: translateY(-2px);
 }
 
@@ -418,7 +418,7 @@ body.dark-mode .social-icon:hover {
 }
 
 .contact-form button:hover {
-  background-color: #e14d29;
+  background-color: var(--color-hover);
 }
 
 /* Footer */
