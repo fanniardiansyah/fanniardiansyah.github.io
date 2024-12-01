@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Beranda</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <ul class="navbar-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <img
+            src="img/moon.png"
+            alt="Mode Terang"
+            id="light-mode"
+            class="theme-icon"
+          />
+          <img
+            src="img/sun.png"
+            alt="Mode Gelap"
+            id="dark-mode"
+            class="theme-icon hidden"
+          />
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="content">
+        <h1>Selamat Datang di Portofolio Saya</h1>
+        <p>
+          Halo, saya Fanni Ardiansyah, seorang Full-Stack Developer dan
+          Cybersecurity Enthusiast.
+        </p>
+        <a href="about.html" class="btn-primary">About Me</a>
+      </div>
+
+      <!-- Klien Section -->
+      <section class="clients" id="clients">
+        <h2>Klien yang Pernah Saya Kerjakan</h2>
+        <div class="client-logos">
+          <img src="img/client1.png" alt="Klien 1" />
+          <img src="img/client2.png" alt="Klien 2" />
+          <img src="img/client3.png" alt="Klien 3" />
+        </div>
+        <p>Dan masih banyak lagi!</p>
+        <a href="clients.html" class="btn-primary">My Clients</a>
+      </section>
+
+      <!-- Kontak Section -->
+      <section class="contact">
+        <h2>Hubungi Saya</h2>
+        <p>
+          Tertarik untuk bekerja sama? Hubungi saya, dan mari kita buat sesuatu
+          yang luar biasa!
+        </p>
+        <a href="contact.html" class="btn-primary">Contact Me</a>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>
+          &copy; <span id="year"></span> Fanni Ardiansyah. All rights reserved.
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

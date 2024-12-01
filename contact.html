@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+        </div>
+        <ul class="navbar-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <img
+            src="img/moon.png"
+            alt="Mode Terang"
+            id="light-mode"
+            class="theme-icon"
+          />
+          <img
+            src="img/sun.png"
+            alt="Mode Gelap"
+            id="dark-mode"
+            class="theme-icon hidden"
+          />
+        </div>
+      </nav>
+
+      <!-- Kontak Section -->
+      <main>
+        <section class="contact">
+          <h2>Kontak Saya</h2>
+          <p>
+            Terima kasih telah mengunjungi halaman saya! Jika Anda ingin
+            berdiskusi lebih lanjut atau memiliki pertanyaan, jangan ragu untuk
+            menghubungi saya melalui salah satu cara berikut.
+          </p>
+
+          <!-- Social Media Links -->
+          <div class="contact-icons">
+            <a
+              href="https://instagram.com/fanniardsyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/@fanniardsyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://github.com/fanniardiansyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://discord.com/users/@fanniardiansyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-discord"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/@fanniardiansyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://youtube.com/@fanniardiansyah"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <!-- Email Contact Form -->
+          <div class="email-contact">
+            <p>
+              Kamu bisa juga mengirimkan pesan lewat email, dan saya akan segera
+              meresponsnya.
+            </p>
+            <form
+              action="mailto:fanniardiansyah@proton.me"
+              method="post"
+              enctype="text/plain"
+              class="contact-form"
+            >
+              <input type="text" name="name" placeholder="Nama Anda" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Anda"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Pesan Anda"
+                required
+              ></textarea>
+              <button type="submit">Kirim Pesan</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <p>
+          &copy; <span id="year"></span> Fanni Ardiansyah. All rights reserved.
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
